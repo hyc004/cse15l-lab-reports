@@ -40,5 +40,5 @@ Both of these tests passed without a problem. So I tested the case where there a
 ```
 This case failed, instead of returning 3.00, it returned 1.50. Then I started to examine the body of the method and realized that although the method excludes all instances of the lowest number when calculating the sum, there wasn't a way to count how many of the lowest numbers are removed from the array therefore messing up the denominator of the calculation of the average. To fix this, I implemented a counter that increments everytime a lowest number is excluded from the sum. Then, using this number, I was able to fix the problem where the denominator is larger than intended causing an error.
 
-##Part 3
+## Part 3
 Having taken CSE8B, DSC30 and currently taking CSE12, I am pretty familiar with the concept of debugging using JUnit. However, in lab 2, I learned a lot about the significance of the URL of a server/webpage and, to an extent, which each part of the URL does what. I did quite a bit of coding but was never exposed to actually creating a server that other people can also access but now I know!
