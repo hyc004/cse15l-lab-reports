@@ -6,6 +6,7 @@ After running the code
 `javac StringServer.java`
 and `java StringServer 4000`
 I was able to create a local server on the port 4000. The main method in StringServer is called first which then calls the handleRequest method in the Handler class. The handleRequest method takes the URL of the local server as input and passes it through an if-statement which checks if the path of the URL contains the command of `/add-message`, if so, the method splits the words of the query of the URL in to an array. All words after the element which will then be added to what will be printed on the server. The URL of the server basically determines what will be printed since it is split into an array of Strings. For examples, a URL of `http://localhost:4000/add-message?s=How are you` the "How are you" will be added to the output String which will be printed like below. The printed Strings will be saved even after a new command is ran.
+
 ![Image](ex1.png)
 
 ![Image](ex2.png)
