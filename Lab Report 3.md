@@ -1,4 +1,4 @@
-# Lab Report 3 - Researching Commands (Week 6)
+# Lab Report 3 - Researching Commands (Week 5)
 ## grep -w (whole word)
 ![Image](-w.png) 
 ![Image](-wCompare.png)
