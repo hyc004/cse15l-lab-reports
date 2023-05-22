@@ -31,9 +31,13 @@ same command but with -r added will result in the output shown below.
 
 ![Image](-r.png)
 
-Another example can be seen below. 
-
 In this image, we can see the file path of where the line containing the substring is found as well as the line itself.
+
+Another example can be seen below where I ran grep on the directory 911report. It showed the output of `grep: 911report: Is a directory`. But when
+I added -r, it properly ran the grep command of the word "initiated" on every file of the 911report directory as shown below.
+
+
+![Image](-r1.png)
 
 ## grep -v (exclude word)
 
