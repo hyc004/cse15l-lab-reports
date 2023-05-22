@@ -29,7 +29,9 @@ The command `grep -r` essentially runs `grep` on all files in the current direct
 a `.txt` file so when ran on a directory, `grep: ____: Is a directory`, will be returned as shown in the image above. However, running the
 same command but with -r added will result in the output shown below.
 
-![Image](-rCompare.png)
+![Image](-r.png)
+
+Another example can be seen below. 
 
 In this image, we can see the file path of where the line containing the substring is found as well as the line itself.
 
