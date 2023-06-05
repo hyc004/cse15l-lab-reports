@@ -89,4 +89,12 @@ This command allows us to check whether the our edit is successfully added to th
 
 Keys pressed: `git commit -m “updated ListExamples.java”`, \<enter\>
 
-This command will commit our changes to the user's github page with a commit message.
+This command will commit our changes with a commit message that will be pushed.
+
+## Step 14
+![Image](gitPush.png)
+![Image](gitPush1.png)
+
+Keys pressed: `git push -u origin main`, \<enter\>
+
+This command pushes the commit to the user's github page.
